@@ -89,6 +89,10 @@ body {
     text-align: center;
   }
 
+  .mainTexto {
+    text-shadow: 0.1em 0.1em 0.05em #333;
+  }
+
   .boton {
     margin-right: 0%;
     padding: 10px 20px;
@@ -141,14 +145,18 @@ body {
   }
 
   .divVacio {
-    height: 4px;
+    height: 3px;
     width: 60px;
-    margin-top: 5px;
-    margin-bottom: 2em;
+    margin-top: 4px;
+    margin-bottom: 1em;
   }
 
   .about p {
     margin-bottom: 1em;
+  }
+
+  .sectionBoton {
+    margin-top: 1em;
   }
 
     /* PORTAFOLIO*/
