@@ -4,14 +4,23 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     scroll-padding-top: 300px;
-    max-width: 99.1vw !important;
   }
+  
+  /* BODY */
+
+  body {
+    font-family: 'Montserrat', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(fotos/fondo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
 
 
   /* HEADER */
 .navegacion {
-    background-color: #6a4174;
-    width: 100vw;
+    background-color: transparent;
     height: 10vh;
     border-radius: 52px 52px 52px 52px;
     color: white;
@@ -40,28 +49,22 @@
 
     .menu a:hover {
         cursor:cell;
-        color: rgb(68, 10, 116);
+        color: black;
     }
+
     .sigla{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 10%;
-        
-        
     }
 
     .sigla span {
-        color: #242c55;
+        color: RGB(106, 65, 116);
         
     }
 
-  /* BODY */
-
-body {
-    font-family: 'Montserrat', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #e2ddf6;
-}
+  /* MAIN */
 
 .main {
     margin: auto;
@@ -71,7 +74,7 @@ body {
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 2em;
-    background-color: #e2ddf6;
+    background-color: transparent;
     text-align: center;
   }
 
@@ -82,7 +85,8 @@ body {
   }
 
   .contenido span {
-    color: #242c55;
+    color: black;
+    text-shadow: 0.1em 0.1em 0.05em white !important;
   }
 
   .contenido p{
@@ -123,7 +127,6 @@ body {
   .aboutme {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    width: 100vw;
     align-items: center;
     background-color: #6a4174;
   }
