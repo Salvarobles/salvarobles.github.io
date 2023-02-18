@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salva Robles</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
 </head>
 <body>
+
+    <a class='flotante' href='#' ><img class="imgFlecha" src='fotos/botonFlotante2.jpg' border="0"/></a>
+
 
     <header class="navegacion">
         <nav class="navbar">
@@ -14,15 +18,15 @@
               <h2>S<span>R</span>G</h2>
             </div>
             <ul class="menu">
-              <li><a href="#"  class="active">Inicio</a></li>
+              <li><a href="#">Inicio</a></li>
               <li><a href="#info">Quien Soy</a></li>
-              <li><a href="#">Portafolio</a></li> 
-              <li><a href="#">Contacto</a></li>
+              <li><a href="#Port">Portafolio</a></li> 
+              <li><a href="#Cont">Contacto</a></li>
             </ul>
           </nav>
     </header>
 
-    <main class="main">
+    <main class="main" id="#">
       <div class="contenido">
         <h1 class="mainTexto">Soy <span>Salva</span> Robles</h1>
          <p>Bienvenidos a mi Portafolio.</p>
@@ -43,8 +47,46 @@
       </div>
     </section>
 
-    <aside>
-      <h2>Portafolio</h2>
+    <aside class="portfolio">
+      <h2 class="portfolio-heading">Portafolio</h2>
+
+      <div class="container">
+
+        <div class="card" id="card1">
+          <div id="cardImg1">
+          </div>
+          <div class="card__title">
+            <h2>Project Description</h2>
+          </div>
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+        </div>
+        
+        <div class="card" id="card2">
+          <div id="cardImg2">
+          </div>
+          <div class="card__title">
+            <h2>Project Description</h2>
+          </div>
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <div class="card" id="card3">
+          <div id="cardImg3">
+          </div>
+          <div class="card__title">
+            <h2>Project Description</h2>
+          </div>
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+      </div>
+      <div id="Port"></div>
     </aside>
 
 </body>

@@ -10,13 +10,27 @@
 
   body {
     font-family: 'Montserrat', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(fotos/fondo.jfif);
+    background-image: url(fotos/fondo2.png);
     background-repeat: no-repeat;
     background-size: cover;
 
     
 }
 
+.flotante {
+  display:scroll;
+      position:fixed;
+      bottom:10%;
+      right:-20%;
+}
+
+.imgFlecha {
+  width: 10%;
+}
+
+.imgFlecha:hover {
+  width: 15%;
+}
 
   /* HEADER */
 .navegacion {
@@ -49,7 +63,7 @@
 
     .menu a:hover {
         cursor:cell;
-        color: black;
+        color: #5E306F;
     }
 
     .sigla{
@@ -60,7 +74,7 @@
     }
 
     .sigla span {
-        color: RGB(106, 65, 116);
+        color: #5E306F;
         
     }
 
@@ -85,7 +99,7 @@
   }
 
   .contenido span {
-    color: black;
+    color: #5E306F;
     text-shadow: 0.1em 0.1em 0.05em white !important;
   }
 
@@ -100,8 +114,8 @@
   .boton {
     margin-right: 0%;
     padding: 10px 20px;
-    background-color: #6a4174;
-    border: none;
+    background-color: transparent;
+    border: #5E306F solid;
     border-radius: 20px;
     margin-top: 10px;
     cursor: pointer;
@@ -111,12 +125,12 @@
   }
   
   .boton:hover {
-    background-color: #242c55;
+    background-color: #5E306F;
     box-shadow: none;
   }
 
   .main img {
-    border:  7px solid #6a4174;
+    border:  7px solid #5E306F;
     width: 300px;
     height: 520px;
     z-index: 1;
@@ -128,7 +142,7 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     align-items: center;
-    background-color: #6a4174;
+    background-color: #5E306F;
   }
 
   .about img {
@@ -164,42 +178,104 @@
 
     /* PORTAFOLIO*/
 
-  .portfolio,
-  .contact-section {
-  width: 100vw;
+  .portfolio {
   color: #191c32;
-}
-
-.portfolio-heading {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.portfolio-heading h2,
-.contact-heading h2 {
-  font-size: 2.5em;
-}
-
-.portfolio .container {
   width: 80vw;
   height: 100vh;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+.portfolio-heading {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.portfolio-heading h2,
+.contact-heading h2 {
+  font-size: 2em;
+}
+
+  .container {
+  display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5%;
+  height: 90vh; 
+  width: 80vw;
 }
 
 .card {
-  width: 300px;
-  background-color: #6a4174;
+  color: white;
+  background-color: #5E306F;
   margin: 1em;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  padding-right: 2%;
 }
 
-.card__img {
+
+#cardImg1 {
+  background-image: url(fotos/html5.png);
+  background-size: cover;
+  width: 100%;
+  height: 30%;
+}
+
+#card1 {
+  padding-left: 2.2%;
+  padding-top: 5%;
+}
+
+#cardImg2 {
+  background-image: url(fotos/css3.png);
+  background-size: cover;
+  width: 100%;
+  height: 30%;
+  
+}
+
+#card2 {
+  padding-left: 2.2%;
+  padding-top: 5%;
+}
+
+#cardImg3 {
+  background-image: url(fotos/java.png);
+  background-size: cover;
+  width: 100%;
+  height: 35%;
+}
+
+#card3 {
+  padding-left: 2.15%;
+}
+
+.card__block{
   width: 100%;
   height: 150px;
-  background-image: url(https://res.cloudinary.com/freelancer2222222222222222/image/upload/v1650543491/samples/2-original_agisst.png);
   background-size: cover;
+}
+
+.card__title {
+  padding: 20px;
+
+}
+
+.card a {
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  font-size: 2.5em;
+}
+
+
+
+.container-contact {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
