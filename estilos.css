@@ -289,17 +289,19 @@
     /* Contactar*/
 
 .contact {
-  padding: 3em;
+  padding: ;
   background-color: #5E306F;
   height: 100vh;
 }
 
 .contenedor {
-  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: red solid ;
+}
+
+.contenedor img{
+  height: 100vh;
 }
 
 .contact-form {
