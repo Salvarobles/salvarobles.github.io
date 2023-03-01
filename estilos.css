@@ -13,7 +13,7 @@
     background-image: url(fotos/fondo2.png);
     background-repeat: no-repeat;
     background-size: cover;
-
+overflow-x: hidden;
     
 }
 
@@ -98,6 +98,11 @@
     margin-bottom: 2%;
   }
 
+  .contenido {
+    
+  }
+
+ 
   .contenido span {
     color: #5E306F;
     text-shadow: 0.1em 0.1em 0.05em white !important;
@@ -214,7 +219,17 @@
   padding-bottom: 2%;
   padding-top: 2%;
   padding-right: 2%;
+ 
+  transition: opacity 2s ease-out,transform 2s ease;
+    transform: translateX(600%); 
+  opacity: 0;
 }
+.normal {
+  
+  transform: translate(0%);
+  opacity: 1;
+}
+
 
 .card:hover {
   background-color: gold;
