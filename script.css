@@ -1,0 +1,36 @@
+/*BLOQUES MOVIMIENTO*/
+/* SE MUEVE LA CAJA HACIA LA IZQUIERDA*/
+
+.cajaIzq {
+    transition: opacity 2s ease-out,transform 2s ease;
+    transform: translateX(100%); 
+    opacity: 0;
+}
+
+/* SE MUEVE LA CAJA HACIA LA DERECHA*/
+
+.cajaDerecha {
+    transition: opacity 2s ease-out,transform 2s ease;
+    transform: translateX(-100%); 
+    opacity: 0;
+}
+
+/* SE MUEVE LA CAJA HACIA LA ABAJO*/
+.caja {
+    transition: opacity 2s ease-out,transform 2s ease;
+    transform: translateY(-50%); 
+    opacity: 0;    
+}
+
+/* SE MUEVE LA CAJA HACIA DESDE EL CENTRO*/
+
+.cajaCentro {
+    transition: opacity 2s ease-out,transform 2s ease;
+    transform: translateX(0%); 
+    opacity: 0;    
+}
+
+.normal {
+transform: translate(0%);
+opacity: 1;
+}

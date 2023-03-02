@@ -98,9 +98,7 @@ overflow-x: hidden;
     margin-bottom: 2%;
   }
 
-  .contenido {
-    
-  }
+
 
  
   .contenido span {
@@ -219,16 +217,9 @@ overflow-x: hidden;
   padding-bottom: 2%;
   padding-top: 2%;
   padding-right: 2%;
- 
-  transition: opacity 2s ease-out,transform 2s ease;
-    transform: translateX(600%); 
-  opacity: 0;
 }
-.normal {
-  
-  transform: translate(0%);
-  opacity: 1;
-}
+
+
 
 
 .card:hover {
@@ -304,7 +295,7 @@ overflow-x: hidden;
     /* Contactar*/
 
 .contact {
-  padding: ;
+
   background-color: #5E306F;
   height: 100vh;
 }
@@ -327,10 +318,6 @@ margin-right: 5%;
 
 .contact h4 {
   font-size: 2rem;
-}
-
-.contact img {
-  
 }
 
 .form-group {
