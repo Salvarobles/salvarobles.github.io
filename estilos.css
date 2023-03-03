@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
   }
   
   /* BODY */
@@ -13,7 +12,7 @@
     background-image: url(fotos/fondo2.png);
     background-repeat: no-repeat;
     background-size: cover;
-overflow-x: hidden;
+    overflow-x: hidden;
     
 }
 
@@ -97,9 +96,6 @@ overflow-x: hidden;
     color: white;
     margin-bottom: 2%;
   }
-
-
-
  
   .contenido span {
     color: #5E306F;
@@ -219,9 +215,6 @@ overflow-x: hidden;
   padding-right: 2%;
 }
 
-
-
-
 .card:hover {
   background-color: gold;
 }
@@ -307,17 +300,33 @@ overflow-x: hidden;
 }
 
 .contenedor img{
-  height: 100vh;
+    width: 40%;
+    height: 100vh;
 }
 
 .contact-form {
 background-color: #e2ddf6;
 padding: 3%;
-margin-right: 5%;
+margin-right: 8%;
 }
 
 .contact h4 {
   font-size: 2rem;
+}
+
+h4 span {
+  position:absolute;
+  right:400;
+  width:0;
+  background: #e2ddf6;
+  border-left: 1px solid #000;
+  animation: escribir 5s steps(30) infinite alternate;
+  
+}
+
+@keyframes escribir {
+  from { width: 20.5% }
+  to { width: 0; }
 }
 
 .form-group {
@@ -343,8 +352,6 @@ margin-right: 5%;
   color: #fff;
 }
 
-
-
 .contact button {
   padding: 10px 20px;
   margin: 1em;
@@ -359,7 +366,6 @@ margin-right: 5%;
   -moz-box-shadow: 1px 3px 11px -5px #242c55;
   box-shadow: 1px 3px 11px -5px #242c55;
 }
-
 
   .contact button:hover {
     background-color: #5E306F;
