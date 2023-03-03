@@ -326,7 +326,7 @@ h4 span {
 
 @keyframes escribir {
   from { width: 20.5% }
-  to { width: 0; }
+  to { width: 50; }
 }
 
 .form-group {
