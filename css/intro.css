@@ -1,0 +1,41 @@
+.bienvenido {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: white;
+    text-align: center;
+    z-index: 200;
+    overflow: hidden;
+    line-height: 90vh;
+  }
+
+  @keyframes fadeOn {
+    to {
+        opacity: 1;
+    }
+  }
+
+  .fade {
+    color: black;
+    opacity: 0;
+    animation: fadeOn 1s ease-in forwards;
+  }
+
+  .bienvenido.display-none {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: white;
+    text-align: center;
+    z-index: -10;
+    overflow: hidden;
+    line-height: 90vh;
+    opacity: 0;
+  }
+
+
+

@@ -14,3 +14,10 @@ window.addEventListener('scroll', checkBoxes)
       }) 
     }
 
+const bienvenido = document.querySelector('.bienvenido');
+
+document.addEventListener('DOMContentLoaded', (e)=>{
+  setTimeout(()=>{
+    bienvenido.classList.add('display-none');
+  }, 2000);
+})
