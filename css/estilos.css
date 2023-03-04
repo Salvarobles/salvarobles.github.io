@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
   }
   
   /* BODY */
@@ -12,8 +13,10 @@
     background-image: url(../fotos/fondo2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
-    
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
 
 .flotante {
@@ -23,9 +26,18 @@
       right:-20%;
 }
 
+.flotante2 {
+  display:scroll;
+      position:fixed;
+      bottom:10%;
+      right:-20%;
+}
+
 .imgFlecha {
   width: 10%;
+  transition: width 0.5s;
 }
+
 
 .imgFlecha:hover {
   width: 15%;
@@ -205,6 +217,7 @@
   height: 90vh; 
   width: 80vw;
 }
+
 
 .card {
   color: white;
