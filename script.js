@@ -38,10 +38,22 @@ document.addEventListener('DOMContentLoaded', (e)=>{
 //         }
 //       })
 //     }
-function disableScroll(){  
-  window.scrollTo(0, 0);
-}
 
-window.addEventListener('scroll', disableScroll);
 
-window.removeEventListener('scroll', disableScroll);  
+// buttonSkill.onclick = function(){
+
+//   if (document.getElementById('elemento-1') && document.getElementsByClassName('active') == true) {
+//     document.getElementById('imagen-1').style.display = 'block';
+//   } else {
+//     document.getElementById('imagen-1').style.display = 'none';
+//   }
+  
+// }
+
+  function mostrar(){
+      document.getElementById('elementoImg').style.display = 'block';
+  }
+
+  function ocultar(){
+      document.getElementById('elementoImg').style.display = 'none';
+  }

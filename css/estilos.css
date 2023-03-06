@@ -191,6 +191,61 @@ body::-webkit-scrollbar{
     margin-top: 1em;
   }
 
+    /* MOSTRAR IMAGEN*/
+    
+    #elementoImg {
+      display: none;
+    }
+
+    #imgSkills{
+      position: absolute;
+      top: 113%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      height: 75vh;
+      width: 50vw;
+      animation: abrir 1s ease-in forwards;
+    }
+
+    @keyframes abrir {
+      0%{
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  
+
+    #botonSalir{
+      position: absolute;
+      top: 107%;
+      left: 57%;
+      right: 0;
+      margin: 0 auto;
+      height: 10vh;
+      width: 5vw;
+      transition: width 0.5s;
+      animation: abrir 1s ease-in forwards;
+    }
+
+    #botonSalir:hover{
+      width: 7vw;
+
+    }
+
+    #sinBoton{
+      color: #5E306F;
+      background-color: #5E306F;
+      border: transparent;
+    }
+
+    #sinBoton:hover{
+      cursor: pointer;
+      width: 15%;
+    }
+
     /* PORTAFOLIO*/
 
   .portfolio {
@@ -418,5 +473,10 @@ h4 span {
   .sotial-networks i {
     font-size: 1.5em;
   } 
+
+  .sotial-networks a {
+    color: black;
+  } 
+
 
 
