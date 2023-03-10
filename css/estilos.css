@@ -288,7 +288,7 @@ body::-webkit-scrollbar{
 }
 
 #cardImg1 {
-  background-image: url(../fotos/html5.png);
+  background-image: url(../fotos/coming\ soon.png);
   background-size: cover;
   width: 100%;
   height: 30%;
@@ -301,7 +301,7 @@ body::-webkit-scrollbar{
 }
 
 #cardImg2 {
-  background-image: url(../fotos/css3.png);
+  background-image: url(../fotos/coming\ soon.png);
   background-size: cover;
   width: 100%;
   height: 30%;
@@ -314,7 +314,7 @@ body::-webkit-scrollbar{
 }
 
 #cardImg3 {
-  background-image: url(../fotos/java.png);
+  background-image: url(../fotos/coming\ soon.png);
   background-size: cover;
   width: 100%;
   height: 35%;
@@ -332,19 +332,24 @@ body::-webkit-scrollbar{
 
 .card__title {
   padding: 20px;
-
 }
 
-.card a {
-  display: flex;
-  justify-content: space-evenly;
+.card a{
+  text-decoration: none;
+  color: white;
+}
+
+.card i {
   color: #fff;
   font-size: 2.5em;
-  margin-right: 50%;
-  margin-left: 50%;
 }
 
-.card a:hover {
+.logoCard{
+  display: flex;
+  justify-content: center;
+}
+
+.card i:hover {
   color: black;
 }
 
@@ -371,6 +376,7 @@ body::-webkit-scrollbar{
 .contenedor img{
     width: 40%;
     height: 100vh;
+    object-fit: cover;
 }
 
 .contact-form {
