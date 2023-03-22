@@ -49,7 +49,9 @@ document.addEventListener('DOMContentLoaded', (e)=>{
 //   }
   
 // }
-// if (altura mostrada< alturadepagina) {
+
+  var altura = window.innerHeight;
+// if (altura < alturadepagina) {
 //   document.getElementById('elementoImg').style.display = 'block';
 
 // }
