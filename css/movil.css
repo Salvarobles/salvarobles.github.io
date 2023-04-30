@@ -1,22 +1,61 @@
 @media (max-width: 600px) {
   
+  ul.nav-item {
+    height: 0;
+    overflow: hidden;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s;
+  }
+
+  #navigation:target .nav-item {
+    height: 15.8m;
+    background: #f0f0f0 none repeat scroll 0 0;
+    transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s;
+  }
+
+  .close {
+    display: none;
+  }
+
+  #navigation:target .open {
+    display: none;
+  }
+
+  #navigation:target .close{
+    display: block;
+  }
+
     /* FLECHA */
 
 
     /* MAIN */
+* {
+  border: solid red 1px;
+}
 
- .main {
- flex-direction: column;
+.main {
+  width: 100%;
+  height: 96vh;
+  flex-direction: column;
+  border: solid red 1px;
+  justify-content: center;
+  margin: auto;
  }
+
+  h1 {
+  font-size: 3em;
+  color: white;
+  
+  }
+
   .contenido {
     width: 100%;
-    
-    
+    gap: 2rem;
   }
 
   .main img {
-    width: 100%;
-    
+    width: 60%;
     
   }
  
