@@ -49,10 +49,6 @@ body::-webkit-scrollbar{
 
   /* HEADER */
 
-.control-menu {
-  display: none;
-}
-
 .navegacion {
     background-color: transparent;
     max-height: 10vh;
@@ -61,7 +57,11 @@ body::-webkit-scrollbar{
 }
 
 
-
+.nav-toggle{
+  display: none;
+  margin: 1;
+  margin-right: 7px;
+}
 
 
 .nav{

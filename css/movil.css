@@ -2,6 +2,23 @@
   
   /* Navegador */
 
+  .menu {
+    display: none;
+    
+    position: absolute;
+
+    margin: 20px;
+    left: 30%;
+    align-items: center;
+    top: 30%;
+    margin: auto;
+    font-size: 1.7em;
+    transition: left 1s ;
+    border: solid red 1px;
+    background-color: red;
+    height: 20%;
+    z-index: 1;
+}
 
   ul.nav-item {
     height: 0;
@@ -9,19 +26,22 @@
     height: 0;
     overflow: hidden;
     transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s;
+  } 
+
+  ulli{
+
   }
-
   .nav-toggle{
-
     display: block;
     margin: 1;
     margin-right: 7px;
+    background: none;
+    border: none;
   }
 
   .navbar_visible {
+    display: block;
 
-    left: 0;
-  
   }
 
     /* FLECHA */
@@ -29,14 +49,14 @@
 
     /* MAIN */
 * {
-  border: solid red 1px;
+  
 }
 
 .main {
   width: 100%;
   height: 96vh;
   flex-direction: column;
-  border: solid red 1px;
+
   justify-content: center;
   margin: auto;
  }
