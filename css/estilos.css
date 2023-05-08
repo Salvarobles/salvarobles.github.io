@@ -48,6 +48,11 @@ body::-webkit-scrollbar{
 }
 
   /* HEADER */
+
+.control-menu {
+  display: none;
+}
+
 .navegacion {
     background-color: transparent;
     max-height: 10vh;
@@ -55,6 +60,14 @@ body::-webkit-scrollbar{
     color: white;
 }
 
+
+
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -68,7 +81,7 @@ body::-webkit-scrollbar{
         width: 40%;
         height: 10vh;
         align-items: center;
-        list-style: none;
+        list-style: none; 
     }
 
     .menu a {

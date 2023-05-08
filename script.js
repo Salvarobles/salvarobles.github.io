@@ -23,38 +23,18 @@ document.addEventListener('DOMContentLoaded', (e)=>{
 
 })
 
-// const flecha = document.querySelectorAll('.flecha1')
-// window.addEventListener('scroll', checkflecha)
-//     checkflecha()
 
-//     function checkflecha() {
-//       const Bottom = window.innerHeight / 5 * 4
-//        flecha.forEach(flecha1 => {
-//         const flechaTop = flecha1.getBoundingClientRect().top
-//         if (flechaTop < Bottom) {
-//           flecha1.classList.add('flotante2')
-//         } else {
-//           flecha1.classList.remove('flotante')
-//         }
-//       })
-//     }
+const navToggle = document.querySelector(".nav-toggle")
+const menu = document.querySelector(".menu")
 
+navToggle.addEventListener("click", () => {
 
-// buttonSkill.onclick = function(){
+  menu.classList.toggle("navbar_visible")
 
-//   if (document.getElementById('elemento-1') && document.getElementsByClassName('active') == true) {
-//     document.getElementById('imagen-1').style.display = 'block';
-//   } else {
-//     document.getElementById('imagen-1').style.display = 'none';
-//   }
-  
-// }
+})
+
 
   var altura = window.innerHeight;
-// if (altura < alturadepagina) {
-//   document.getElementById('elementoImg').style.display = 'block';
-
-// }
   function mostrar(){
       document.getElementById('elementoImg').style.display = 'block';
   }

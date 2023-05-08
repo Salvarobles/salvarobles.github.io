@@ -1,5 +1,8 @@
 @media (max-width: 600px) {
   
+  /* Navegador */
+
+
   ul.nav-item {
     height: 0;
     overflow: hidden;
@@ -8,22 +11,17 @@
     transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s;
   }
 
-  #navigation:target .nav-item {
-    height: 15.8m;
-    background: #f0f0f0 none repeat scroll 0 0;
-    transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s;
-  }
+  .nav-toggle{
 
-  .close {
-    display: none;
-  }
-
-  #navigation:target .open {
-    display: none;
-  }
-
-  #navigation:target .close{
     display: block;
+    margin: 1;
+    margin-right: 7px;
+  }
+
+  .navbar_visible {
+
+    left: 0;
+  
   }
 
     /* FLECHA */
