@@ -1,12 +1,10 @@
-@media (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   
   /* Navegador */
 
   .menu {
     display: none;
-    
     position: absolute;
-
     margin: 20px;
     left: 30%;
     align-items: center;
@@ -20,6 +18,18 @@
     z-index: 1;
 }
 
+.navbar {
+  margin: 6%;
+  width: -5%;
+  border: 1px solid red;
+}
+
+.navegacion {
+  border: solid 1px red;
+  margin: -3%;
+  width: -10vw;
+}
+
   ul.nav-item {
     height: 0;
     overflow: hidden;
@@ -28,9 +38,7 @@
     transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s;
   } 
 
-  ulli{
 
-  }
   .nav-toggle{
     display: block;
     margin: 1;
@@ -48,9 +56,6 @@
 
 
     /* MAIN */
-* {
-  
-}
 
 .main {
   width: 100%;
@@ -61,6 +66,8 @@
   margin: auto;
  }
 
+
+
   h1 {
   font-size: 3em;
   color: white;
@@ -69,7 +76,7 @@
 
   .contenido {
     width: 100%;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .main img {
@@ -80,4 +87,37 @@
   .flotante {
     display: none;
   }
+
+  .mainTexto {
+    display: flex;
+    gap: 3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  .aboutme {
+
+  
+  
+  }
+  .aboutme {
+    height: 50vh;
+  }
+  
+  .aboutme img{
+    height: 30vh;
+    
+  }
+
+  .about-info {
+    height: 50vh;
+  }
+
+  .portfolio {
+    height: 50vh;
+  }
+
 }
