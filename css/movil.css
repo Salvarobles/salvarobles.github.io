@@ -21,11 +21,9 @@
 .navbar {
   margin: 6%;
   width: -5%;
-  border: 1px solid red;
 }
 
 .navegacion {
-  border: solid 1px red;
   margin: -3%;
   width: -10vw;
 }
@@ -99,25 +97,76 @@
 
 
   .aboutme {
-
-  
-  
-  }
-  .aboutme {
     height: 50vh;
+    width: 110vw;
+    
   }
   
   .aboutme img{
-    height: 30vh;
+    display: none;
     
   }
 
   .about-info {
     height: 50vh;
+    width: 50vh;
+    margin: 0;
+    margin-left: -2%;
+    padding-left: 1rem;
+  }
+
+  .aboutme p {
+    margin-bottom: 1rem;
+  }
+
+  .aboutme h2 {
+    text-align: center;
+  }
+
+  .aboutme button {
+    margin-left: 7.5rem;
+    margin-top: 2rem;
   }
 
   .portfolio {
-    height: 50vh;
+    height: 55vh;
   }
 
+  /* SLIDER TARJETA */ 
+
+
+  swiper-container{
+    display: block;
+  }
+  swiper-container {
+    width: 55vw;
+    height: 40vh;
+  }
+
+  swiper-slide {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+
+  swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+
+  swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+
+  .ordenador {
+    display: none;
+  }
 }

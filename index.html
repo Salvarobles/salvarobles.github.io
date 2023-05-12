@@ -101,6 +101,7 @@
         <p>Soy Salvador Robles aunque prefiero que me llamen Salva. Tengo 20 años, vivo en Granada.</p>
         <p>Soy un chico proactivo, reponsable y con ganas de aprender. Soy estudiante en el Instituto Politecnico Hemrnegildo Lanz formandome en DAW 👨‍💻.</p>
         <button id="boton" onclick="mostrar()" class="boton sectionBoton">Ver Skills</button>
+      
       </div>
 
         <div id="elementoImg" >
@@ -114,65 +115,134 @@
 
     <aside class="portfolio" id="Port">
       <h2  class="portfolio-heading box cajaCentro">Portafolio</h2>
-      <div  class="container">
-        <div class="card box cajaDerecha" id="card1">
-          
-          <a target="_blank" href="https://github.com/Salvarobles/1DAW-LMSGI">
-            
-            <div id="cardImg1">
-            </div>
-            
-            <div class="card__title">
-            <h2>Project Description</h2>
-            </div>
-            
-            <div class="logoCard">
-              <i class="fab fa-github"></i>
-            </div>
-
-          </a>
-
-        </div>
-        
-        <div class="card box caja" id="card2">
-          
-          <a target="_blank" href="https://github.com/Salvarobles/salvarobles.github.io">
-          
-            <div id="cardImg2">
-            </div>
-          
-            <div class="card__title">
+      
+      <div  class="container"> 
+        <div class="ordenador">
+          <div class="card box cajaDerecha" id="card1">
+              
+            <a target="_blank" href="https://github.com/Salvarobles/1DAW-LMSGI">
+              
+              <div id="cardImg1">
+              </div>
+              
+              <div class="card__title">
               <h2>Project Description</h2>
-            </div>
+              </div>
+              
+              <div class="logoCard">
+                <i class="fab fa-github"></i>
+              </div>
+
+            </a>
+
+          </div>
+
+          <div class="card box caja" id="card2">
+                
+            <a target="_blank" href="https://github.com/Salvarobles/salvarobles.github.io">
             
-            <div class="logoCard">
-              <i class="fab fa-github"></i>
-            </div>
+              <div id="cardImg2">
+              </div>
+            
+              <div class="card__title">
+                <h2>Project Description</h2>
+              </div>
+              
+              <div class="logoCard">
+                <i class="fab fa-github"></i>
+              </div>
 
-          </a>
+            </a>
 
-        </div>
+          </div>
 
-        <div class="card box cajaizq" id="card3">
+          <div class="card box cajaizq" id="card3">
 
-          <a target="_blank" href="https://github.com/Salvarobles/1DAW-Programacion">
+            <a target="_blank" href="https://github.com/Salvarobles/1DAW-Programacion">
+            
+              <div id="cardImg3">
+              </div>
+            
+              <div class="card__title">
+                <h2>Project Description</h2>
+              </div>
+              
+              <div class="logoCard">
+                <i class="fab fa-github"></i>
+              </div>
+            </a>
           
-            <div id="cardImg3">
-            </div>
-          
-            <div class="card__title">
-              <h2>Project Description</h2>
-            </div>
-            
-            <div class="logoCard">
-              <i class="fab fa-github"></i>
-            </div>
-            
-            
-          </a>
-        
+          </div>
         </div>
       </div>
+      <div class="container-movil">
+        <swiper-container class="mySwiper" effect="cards" grab-cursor="true">
+          <swiper-slide>
+            <div class="card box cajaDerecha" id="card1">
+              
+              <a target="_blank" href="https://github.com/Salvarobles/1DAW-LMSGI">
+                
+                <div id="cardImg1">
+                </div>
+                
+                <div class="card__title">
+                <h2>Project Description</h2>
+                </div>
+                
+                <div class="logoCard">
+                  <i class="fab fa-github"></i>
+                </div>
+
+              </a>
+
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+              <div class="card box caja" id="card2">
+                
+              <a target="_blank" href="https://github.com/Salvarobles/salvarobles.github.io">
+              
+                <div id="cardImg2">
+                </div>
+              
+                <div class="card__title">
+                  <h2>Project Description</h2>
+                </div>
+                
+                <div class="logoCard">
+                  <i class="fab fa-github"></i>
+                </div>
+
+              </a>
+
+            </div>
+          </swiper-slide>
+
+            <swiper-slide>       
+                <div class="card box cajaizq" id="card3">
+
+              <a target="_blank" href="https://github.com/Salvarobles/1DAW-Programacion">
+              
+                <div id="cardImg3">
+                </div>
+              
+                <div class="card__title">
+                  <h2>Project Description</h2>
+                </div>
+                
+                <div class="logoCard">
+                  <i class="fab fa-github"></i>
+                </div>
+              </a>
+            
+            </div>
+          </swiper-slide>
+
+        </swiper-container>
+      </div>
+       
+
+      
 
     </aside>
     <div class="contact" id="Cont"> 
@@ -190,6 +260,8 @@
         </div>
     </div>
 
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 <script src="script.js"></script>
 </body>
 

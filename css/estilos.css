@@ -21,7 +21,8 @@ body::-webkit-scrollbar{
 }
 
 .container {
-  overflow-x:hidden
+  overflow-x:hidden;
+  overflow-y: hidden;
 }
 
 .flotante {
@@ -172,6 +173,22 @@ body::-webkit-scrollbar{
     border-radius: 20%/10%;
   }
 
+    /* SLIDER TARJETA */ 
+
+    swiper-container {
+      display: none;
+    }
+
+    .ordenador {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5%;
+      height: 90vh; 
+      width: 80vw;
+      overflow-y: hidden;
+    }
+
   /* QUIEN SOY */
   .aboutme {
     display: grid;
@@ -288,12 +305,7 @@ body::-webkit-scrollbar{
 }
 
   .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5%;
-  height: 90vh; 
-  width: 80vw;
+
 }
 
 
